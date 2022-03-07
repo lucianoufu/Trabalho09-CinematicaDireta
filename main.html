@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Trabalho 10</title>
+</head>
+<body>
+    <div class="navBar">
+        <div class="container">
+            <h1>Trabalho 10</h1>
+        </div>
+    </div>
+    <div class="container">
+        <p>Considere o robô de dois elos mostrado
+            abaixo.
+            Escreva um programa que recebe os parâmetros de
+            Denavit Hartenberg e apresenta as coordenadas (x,y) do seu
+            TCP.
+        </p>
+
+        <table>
+            <tr>
+                <th>&alpha;</th>
+                <th>d</th>
+                <th>a</th>
+                <th>&theta;</th>
+            </tr>
+
+            <tr>
+                <th>q<sub>1</sub></th>
+                <th>0</th>
+                <th>a<sub>1</sub></th>
+                <th>0</th>
+            </tr>
+
+            <tr>
+                <th>q<sub>2</sub></th>
+                <th>0</th>
+                <th>a<sub>2</sub></th>
+                <th>0</th>
+            </tr>
+        </table>
+    
+        <form>
+            <label>Comprimento 1º eixo: <input type="number" id="comprimento1"></label><br>
+            <label>Comprimento 2º eixo: <input type="number" id="comprimento2"></label><br>
+            <label>Ângulo do 1º eixo: <input type="number" id="angulo1"></label><br>
+            <label>Ângulo do 2º eixo: <input type="number" id="angulo2"></label><br>
+        </form>
+        <button onClick="coordenadasEorientacaoDOF()">Transladar</button><br>
+    </div>
+    <div id='myChart'></div>
+
+    <script src='https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js'></script>
+    <script src='https://cdn.plot.ly/plotly-2.9.0.min.js'></script>
+    <script src='script.js'></script>
+
+</body>
+</html>

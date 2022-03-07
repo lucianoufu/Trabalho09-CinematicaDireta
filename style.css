@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 10px;
+    font-size: 17px;
+}
+
+.navBar{
+    background-color: #002e3d;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.container{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.container ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+h1{
+    color: #ff8000;
+    padding: 10px;
+}
+
+button{
+    padding: 10px;
+    margin: 20px 1px;
+    border-radius: 7px;
+    border: 2px solid  #ff8000;
+    background-color: #002e3d;
+    color: #ff8000;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: #fff;
+    color: #002e3d;
+    border: 2px solid #002e3d;
+    transition: 0.5s;
+}
+
+label{
+    margin: 10px;
+}
+
+table tr th{
+    border: 1px solid black;
+    padding: 5px;
+}
